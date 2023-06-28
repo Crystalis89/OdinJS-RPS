@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin JS Project Rock Paper Scissors</title>
+</head>
+<body>
+    <script src="rps.js"></script>
+    <div class="rps">
+    <button id="rock" value="rock" onclick=" playerSelection = ('rock'); playRound(playerSelection);">Rock</button>
+    <button id="paper" value="paper" onclick=" playerSelection = ('paper'); playRound(playerSelection);">Paper</button>
+    <button id="scissors" value="scissors" onclick="playerSelection = ('scissors'); playRound(playerSelection);">Scissors</button>
+    </div>
+
+    <h1>Roll Result</h1>
+    <p id="rollresult">
+Click Rock, Paper, or Scissors to play! </p>
+    <h1>Score</h1>
+    <ul class="score">
+<li id="hps">Your Score: 0</li>
+<li id="hcs">Computer Score: 0</li>
+<li id="hts">Total Rounds: 0</li>
+    </ul>
+</body>
+</html>
